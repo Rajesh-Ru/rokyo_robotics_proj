@@ -1,0 +1,13 @@
+<launch>
+
+  <include file="$(find manipulation_worlds)/launch/pr2_table_object.launch"/>
+
+  <node name="spawn_wall1" pkg="gazebo" type="spawn_model" args="-urdf -file $(find nav_pick_place_demo)/objects/long_wall.urdf -model wall_1 -x 7.5" respawn="false" output="screen"/>
+
+  <node name="spawn_wall2" pkg="gazebo" type="spawn_model" args="-urdf -file $(find nav_pick_place_demo)/objects/long_wall.urdf -model wall_2 -Y 1.570796 -y 7.7" respawn="false" output="screen"/>
+
+  <node name="spawn_wall3" pkg="gazebo" type="spawn_model" args="-urdf -file $(find nav_pick_place_demo)/objects/long_wall.urdf -model wall_3 -x -7.5" respawn="false" output="screen"/>
+
+  <node name="spawn_wall4" pkg="gazebo" type="spawn_model" args="-urdf -file $(find nav_pick_place_demo)/objects/long_wall.urdf -model wall_4 -Y 1.570796 -y -7.7" respawn="false" output="screen"/>
+
+</launch>
