@@ -1,5 +1,7 @@
 Rokyo Course Project - Intro to Robotic Middleware
 
+Demo video: http://www.tudou.com/programs/view/oMrpaVOsNDE/
+
 The things in the src folder are mainly catkin packages. To use it, you need to create a catkin workspace for it. The installation tutorial that teaches you how to install MoveIt from source can be helpful since I installed MoveIt from source and then added my own packages into the same workspace.
 
 Installation on another computer has not been tested. If you have problem during installation, please contact me via e-mail.
